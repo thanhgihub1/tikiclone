@@ -1,0 +1,1844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css" >
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/font/icon/boxicons-2.0.9/css/boxicons.css">
+    <title>Tiki</title>
+</head>
+<body>  
+    <div class="home-page">
+        <header class="header">
+            <div class="grid wide">
+                <!-- tablet header -->
+                <div class="header__logo-tablet">
+                    <div class="header__logo-tablet-ship">
+                        <img src="./assets/img/freeship-logo.png" alt="" class="header__logo-tablet-ship-img">
+                    </div>
+                    <div class="header__logo-tablet-logo">
+                        <img src="./assets/img/logi-tiki.png" alt="" class="header__logo-tablet-logo-img">
+                    </div>
+                    <div class="header__logo-tablet-notice">
+                        <span class="header__logo-tablet-bell">
+                            <i class='bx bxs-bell' ></i>
+                        </span>
+                        <span class="header__logo-tablet-cart">
+                            <i class='bx bxs-cart' ></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="header__with-search">
+                    <div class="header__search-logo">
+                        <a href="" class="header__logo l-2 hide-on-tablet-mobile">
+                            <img src="./assets/img/logi-tiki.png" alt="" class="header__logo-img">
+                        </a>
+                        <div class="header__search l-10">
+                            <div class="icon-search">
+                                <i class=' icon-search-icon bx bx-search-alt' ></i>
+                            </div>
+                            <input type="text" class="header__search-input" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn..">
+                            <div class="header__search-btn hide-on-tablet-mobile">
+                                <i class='header__search-icon bx bx-search-alt'></i>
+                                <span class="header__search-text hide-on-tablet-mobile ">Tìm kiếm</span>
+                            </div>
+                            <div class="header__search-history">
+                                <h3 class="header__history-heading">Lịch sủa tìm kiếm</h3>
+                                <ul class="header__history-list">
+                                    <li class="header__history-item">
+                                        <span class="header__history-item-content">
+                                            <img src="./assets/img footer/history-img.png" alt="" class="img__history" style="width:35px">
+                                            quần tết đẹp
+                                        </span>    
+                                        <span class="header__history-item-close">
+                                            <img src="./assets/img footer/close-history.png" alt="" class="img__history-close" style="width:26px">
+                                        </span>                  
+                                    </li>    
+                                    <li class="header__history-item">
+                                        <span class="header__history-item-content">
+                                            <img src="./assets/img footer/history-img.png" alt="" class="img__history" style="width:35px">
+                                            quần jean
+                                        </span>    
+                                        <span class="header__history-item-close">
+                                            <img src="./assets/img footer/close-history.png" alt="" class="img__history-close" style="width:26px">
+                                        </span>                  
+                                    </li>
+                                    <li class="header__history-item">
+                                        <span class="header__history-item-content">
+                                            <img src="./assets/img footer/history-img.png" alt="" class="img__history" style="width:35px">
+                                            áo con sói
+                                        </span>    
+                                        <span class="header__history-item-close">
+                                            <img src="./assets/img footer/close-history.png" alt="" class="img__history-close" style="width:26px">
+                                        </span>                  
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__user hide-on-tablet-mobile">
+                        <div class="header__user-avatar hide-on-tablet-mobile  ">
+                            <img src="./assets/img/user-avta.png" alt="" class="header__user-img">
+                        </div>
+                        <div class="header__user-text hide-on-tablet-mobile  ">
+                            <div class=" header__user-login js-header__user-login ">
+                                <div class="header__user-signin">Đăng nhập /</div>
+                                
+                                <div class="header__user-signup">Đăng kí</div>
+                            </div>
+                            <div class="header__user-account js-accout">
+                                Tài khoản
+                            </div>
+                        </div>
+                        <div class="header__cart ">
+                            <i class='header__cart-icon bx bx-cart-alt'>
+                                <span class="header__cart-notice">0</span>
+                            </i>
+                            <p class="header__cart-text hide-on-tablet-mobile ">Giỏ hàng</p>
+                            <div class="header__no-cart">
+                                <div class="header__no-cart-img">
+                                    <img src="./assets/img/no-cart.png" alt="" class="header__nocart">
+                                </div>
+                                <span class="header__no-cart-notice">Không có sản phẩm nào trong giỏ hàng của bạn.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="header__bottom-sub">
+                        <div class="header__bottom-logo hide-on-tablet-mobile">
+                            <img src="./assets/img/freeship-logo.png" alt="" class="header__bottom-logo-img">
+                        </div>
+                        <ul class="header__bottom-suggest-list hide-on-tablet-mobile  ">
+                            <li class="header__bottom-suggest-item">Quần</li>
+                            <li class="header__bottom-suggest-item">Áo</li>
+                            <li class="header__bottom-suggest-item">Váy</li>
+                            <li class="header__bottom-suggest-item">Đấm</li>
+                            <li class="header__bottom-suggest-item">Điện Thoại</li>
+                            <li class="header__bottom-suggest-item">Xe hơi</li>
+                        </ul>
+                    </div>
+                    <div class="header__bottom-quicklinks hide-on-tablet-mobile  ">
+                        <i class='header__bottom-quicklink-icon bx bxs-home-heart' ></i>
+                        <a href="">Bán hàng cùng Tiki</a> 
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="suggest__search hide-on-tablet-mobile ">
+                <ul class="suggest-list grid wide">
+                    <li class="suggest-item"><a href=""></a>Thịt, Rau</li>
+                    <li class="suggest-item"><a href=""></a>Bách Hóa</li>
+                    <li class="suggest-item"><a href=""></a>Nhà Cửa</li>
+                    <li class="suggest-item"><a href=""></a>Thiết Bị Số</li>
+                    <li class="suggest-item"><a href=""></a>Điện Thoại</li>
+                    <li class="suggest-item"><a href=""></a>Mẹ & Bé</li>
+                    <li class="suggest-item"><a href=""></a>Gia Dụng</li>
+                    <li class="suggest-item"><a href=""></a>Thời Trang Nữ</li>
+                    <li class="suggest-item"><a href=""></a>Thời Trang Nam</li>
+                    <li class="suggest-item"><a href=""></a>Giày Nữ</li>
+                    <li class="suggest-item"><a href=""></a>Túi Nữ</li>
+                    <li class="suggest-item"><a href=""></a>Giày Nam</li>
+                </ul>
+            </div>
+            <div class="grid wide">
+               <div class="row">
+                   <div class="col l-8">
+                    <div class="slider">
+                        <img src="./assets/img/slider1.png" alt="" class="slider__img">
+                    </div>
+                   </div>
+                   <div class="col l-4 hide-on-tablet-mobile">
+                    <div class="slider">
+                        <img src="./assets/img/slider-r.png" alt="" class="slider__img">
+                    </div>
+                   </div>
+               </div>
+               
+                <div class="product-flashsale-day">
+                    <div class="flashsale-day__header">
+                        <div class="flashsale-day__heading">
+                            <img src="https://frontend.tikicdn.com/_desktop-next/static/img/giasoc.svg" alt="" class="flashsale-day__heading-img">
+                            <img src="https://frontend.tikicdn.com/_desktop-next/static/img/dealFlashIcon.svg" alt="" class="flashsale-day__heading-img-flash" style="width:22px">
+                            <img src="https://frontend.tikicdn.com/_desktop-next/static/img/homnay.svg" alt="" class="flashsale-day__heading-img">
+                        </div>
+                        <div class="flashsale-day__time">
+                            <span>01</span>
+                            :
+                            <span>08</span>
+                            :
+                            <span>45</span>
+                            <img src="./assets/img/icontime.png" alt="" class="flashsale-day__time-icon">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col l-2 m-4 c-6">
+                            <div class="product__flashsale">
+                                <img src="./assets/img/product-bia.png" alt="" class="product__flashsale-img">
+                                <div class="product__flashsale-price">
+                                    <span class="product__flashsale-price-new">350.000 đ</span>
+                                    <span class="product__flashsale-price-sale">-15%</span>
+                                </div>
+                                <div class="product__flashsale-sell">
+                                    <div class="product__flashsale-sold"></div>
+                                    <div class="product__flashsale-sold-text">đã bán 4</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-6">
+                            <div class="product__flashsale">
+                                <img src="./assets/img/product-bia.png" alt="" class="product__flashsale-img">
+                                <div class="product__flashsale-price">
+                                    <span class="product__flashsale-price-new">350.000 đ</span>
+                                    <span class="product__flashsale-price-sale">-15%</span>
+                                </div>
+                                <div class="product__flashsale-sell">
+                                    <div class="product__flashsale-sold"></div>
+                                    <div class="product__flashsale-sold-text">đã bán 4</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-6">
+                            <div class="product__flashsale">
+                                <img src="./assets/img/product-bia.png" alt="" class="product__flashsale-img">
+                                <div class="product__flashsale-price">
+                                    <span class="product__flashsale-price-new">350.000 đ</span>
+                                    <span class="product__flashsale-price-sale">-15%</span>
+                                </div>
+                                <div class="product__flashsale-sell">
+                                    <div class="product__flashsale-sold"></div>
+                                    <div class="product__flashsale-sold-text">đã bán 4</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-6">
+                            <div class="product__flashsale">
+                                <img src="./assets/img/product-bia.png" alt="" class="product__flashsale-img">
+                                <div class="product__flashsale-price">
+                                    <span class="product__flashsale-price-new">350.000 đ</span>
+                                    <span class="product__flashsale-price-sale">-15%</span>
+                                </div>
+                                <div class="product__flashsale-sell">
+                                    <div class="product__flashsale-sold"></div>
+                                    <div class="product__flashsale-sold-text">đã bán 4</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-6">
+                            <div class="product__flashsale">
+                                <img src="./assets/img/product-bia.png" alt="" class="product__flashsale-img">
+                                <div class="product__flashsale-price">
+                                    <span class="product__flashsale-price-new">350.000 đ</span>
+                                    <span class="product__flashsale-price-sale">-15%</span>
+                                </div>
+                                <div class="product__flashsale-sell">
+                                    <div class="product__flashsale-sold"></div>
+                                    <div class="product__flashsale-sold-text">đã bán 4</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-6">
+                            <div class="product__flashsale">
+                                <img src="./assets/img/product-bia.png" alt="" class="product__flashsale-img">
+                                <div class="product__flashsale-price">
+                                    <span class="product__flashsale-price-new">350.000 đ</span>
+                                    <span class="product__flashsale-price-sale">-15%</span>
+                                </div>
+                                <div class="product__flashsale-sell">
+                                    <div class="product__flashsale-sold"></div>
+                                    <div class="product__flashsale-sold-text">đã bán 4</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__body">
+                    <div class="row">
+                        <div class="col l-2 m-0 c-6">
+                            <img class="slider-body" src="./assets/img/slider-body-left.png" alt="">
+                        </div>
+                        <div class="col l-8 m-12 hide-on-mobile">
+                            <img class="slider-body" src="./assets/img/slider-body-center.png" alt="">
+                        </div>
+                        <div class="col l-2 m-0 c-6">
+                            <img class="slider-body" src="./assets/img/slider-body-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quicklinks-tab margin-16 ">
+                    <div class="select__Tab-list">
+                        <div class="select__Tab-item">
+                            <img src="./assets/img/tab-img.png" alt="" class="tab__img">
+                            <p class="tab__content">Tiki Black Friday</p>
+                        </div>
+                        <div class="select__Tab-item">
+                            <img src="./assets/img/tab-img1.png" alt="" class="tab__img">
+                            <p class="tab__content">Đi chowh Online</p>
+                        </div>
+                        <div class="select__Tab-item">
+                            <img src="./assets/img/tab-img2.png" alt="" class="tab__img">
+                            <p class="tab__content">Mã giảm giá</p>
+                        </div>
+                        <div class="select__Tab-item">
+                            <img src="./assets/img/tab-img3.png" alt="" class="tab__img">
+                            <p class="tab__content">Dịch vụ & tiện ích</p>
+                        </div>
+                        <div class="select__Tab-item">
+                            <img src="./assets/img/tab-img4.png" alt="" class="tab__img">
+                            <p class="tab__content">Gói Hội Viên</p>
+                        </div>
+                        <div class="select__Tab-item">
+                            <img src="./assets/img/tab-img5.png" alt="" class="tab__img">
+                            <p class="tab__content">Giảm đến 50%</p>
+                        </div>
+                        <div class="select__Tab-item">
+                            <img src="./assets/img/tab-img6.png" alt="" class="tab__img">
+                            <p class="tab__content">Hoàn Tiền 15%</p>
+                        </div>
+                        <div class="select__Tab-item">
+                            <img src="./assets/img/tab-img7.png" alt="" class="tab__img">
+                            <p class="tab__content">Ưu đãi thanh toán</p>
+                        </div>
+                        <div class="select__Tab-item">
+                            <img src="./assets/img/tab-img8.png" alt="" class="tab__img">
+                            <p class="tab__content">Hẹn giao & lắp đặt</p>
+                        </div>
+                        <div class="select__Tab-item">
+                            <img src="./assets/img/tab-img9.png" alt="" class="tab__img">
+                            <p class="tab__content">Net The Face</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__tab">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-12">
+                            <img src="./assets/img/slider-tab.png" alt="" class="slider__tab-img">
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <img src="./assets/img/slider-tab1.png" alt="" class="slider__tab-img">
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <img src="./assets/img/slider-tab2.png" alt="" class="slider__tab-img">
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <img src="./assets/img/slider-tab3.png" alt="" class="slider__tab-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="genuine margin-16">
+                    <div class="genuine__header padding-16">
+                        <div class="genuine__heading">
+                            <img src="./assets/img/thíchxanh.png" alt="" class="genuine__tick">
+                            <span class="genuine__heading-text">Thương Hiệu Chính Hãng</span>
+                        </div>
+                        <a href="">XEM THÊM</a>
+                    </div>
+                    <div class="row">
+                        <div class="col l-6">
+                            <img src="./assets/img/slider-eguine.png" alt="" class="slider-genuine">
+                        </div>
+                        <div class="col l-6">
+                            <img src="./assets/img/slider-eguinee.png" alt="" class="slider-genuine">
+                        </div>
+                    </div>
+                    <div class="product-genuine margin-16">
+                        <div class="row">
+                            <div class="col l-2 c-6">
+                                <a href="" class="product__genuine">
+                                    <div class="product__genuine-list">
+                                        <img src="./assets/img/product-grnuine.png" alt="" class="img product__genuine-img">
+                                        <span class="product__genuine-content"> Mua 1 tặng 2</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2 c-6">
+                                <a href="" class="product__genuine">
+                                    <div class="product__genuine-list">
+                                        <img src="./assets/img/product-grnuine1.png" alt="" class="img product__genuine-img">
+                                        <span class="product__genuine-content">Ưu Đãi Đến 50%</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2 c-6">
+                                <a href="" class="product__genuine">
+                                    <div class="product__genuine-list">
+                                        <img src="./assets/img/product-grnuine2.png" alt="" class="img product__genuine-img">
+                                        <span class="product__genuine-content"> Voucher 111K Quà 1478K</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2 c-6">
+                                <a href="" class="product__genuine">
+                                    <div class="product__genuine-list">
+                                        <img src="./assets/img/product-grnuine3.png" alt="" class="img product__genuine-img">
+                                        <span class="product__genuine-content"> Hot Voucher 1 Triệu</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2 c-6">
+                                <a href="" class="product__genuine">
+                                    <div class="product__genuine-list">
+                                        <img src="./assets/img/product-grnuine4.png" alt="" class="img product__genuine-img">
+                                        <span class="product__genuine-content"> Mua 1 Được 3</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2 c-6">
+                                <a href="" class="product__genuine">
+                                    <div class="product__genuine-list">
+                                        <img src="./assets/img/product-grnuine5.png" alt="" class="img product__genuine-img">
+                                        <span class="product__genuine-content"> Coupon Giảm 15%</span>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="category-container">
+                    <div class="category__heading padding-16">Danh Mục Nổi Bật</div>  
+                        <div class="row">
+                            <div class="col l-1-10">
+                                <div class="category-content-product">
+                                     <img src="./assets/img/category.png" alt="" class="category-img">
+                                    <div class="category__product-name">Thực Phẩm Tươi Sống</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product">
+                                     <img src="./assets/img/category1.png" alt="" class="category-img">
+                                    <div class="category__product-name">Rau Củ Quả</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product">
+                                     <img src="./assets/img/category2.png" alt="" class="category-img">
+                                    <div class="category__product-name">Giày thể thao nam</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product">
+                                     <img src="./assets/img/category3.png" alt="" class="category-img">
+                                    <div class="category__product-name">Balo</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product">
+                                     <img src="./assets/img/category4.png" alt="" class="category-img">
+                                    <div class="category__product-name">Điện thoại Smartphone</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product">
+                                     <img src="./assets/img/category5.png" alt="" class="category-img">
+                                    <div class="category__product-name">Sách tư duy - Kỹ năng sống</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product">
+                                     <img src="./assets/img/category6.png" alt="" class="category-img">
+                                    <div class="category__product-name">Kem chống nắng</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product">
+                                     <img src="./assets/img/category7.png" alt="" class="category-img">
+                                    <div class="category__product-name">Nồi chiên</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product">
+                                     <img src="./assets/img/category8.png" alt="" class="category-img">
+                                    <div class="category__product-name">Bàn ghế làm việc</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product">
+                                     <img src="./assets/img/category9.png" alt="" class="category-img">
+                                    <div class="category__product-name">Tủ</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product margin-top-32">
+                                     <img src="./assets/img/category10.png" alt="" class="category-img">
+                                    <div class="category__product-name">Kem và sữa dưỡng da</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product margin-top-32">
+                                     <img src="./assets/img/category11.png" alt="" class="category-img">
+                                    <div class="category__product-name">Phụ kiện nhà bếp khác</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product margin-top-32">
+                                     <img src="./assets/img/category12.png" alt="" class="category-img">
+                                    <div class="category__product-name">Tiểu Thuyết</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product margin-top-32">
+                                     <img src="./assets/img/category13.png" alt="" class="category-img">
+                                    <div class="category__product-name">Kệ nhà bếp</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product margin-top-32">
+                                     <img src="./assets/img/category14.png" alt="" class="category-img">
+                                    <div class="category__product-name">Đầm suông</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product margin-top-32">
+                                     <img src="./assets/img/category15.png" alt="" class="category-img">
+                                    <div class="category__product-name">Hộp đựng thực phẩm</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product margin-top-32">
+                                     <img src="./assets/img/category16.png" alt="" class="category-img">
+                                    <div class="category__product-name">Khẩu Trang Y tế</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product margin-top-32">
+                                     <img src="./assets/img/category17.png" alt="" class="category-img">
+                                    <div class="category__product-name">Truyện ngắn - Tản văn - Tạp Văn</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product margin-top-32">
+                                     <img src="./assets/img/category18.png" alt="" class="category-img">
+                                    <div class="category__product-name">Truyện Tranh, Manga, Comic</div>
+                                </div>
+                            </div>
+                            <div class="col l-1-10">
+                                <div class="category-content-product margin-top-32">
+                                     <img src="./assets/img/category19.png" alt="" class="category-img">
+                                    <div class="category__product-name">Thực Phẩm Tươi Sống</div>
+                                </div>
+                            </div>
+                        </div>
+                </div> 
+                <div class="product__trend margin-16">
+                    <div class="product__trend-header padding-16">
+                        <div class="heading-trend">
+                            <img src="./assets/img/trend-logo.png" alt="" class="heading-trend__img">
+                            <span>Xu Hướng Mua Sắm</span>
+                        </div>
+                        <a href="">XEM THÊM</a>
+                    </div>
+                    <div class="row">
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product__trend-body padding-16">
+                                <div class="product__trend-body-title">Điện thoại Smartphone</div>
+                                <p class="product__trend-body-sub-title">Giảm đến 19%</p>
+                                <div class="product__trend-body-img">
+                                    <img src="./assets/img/product-trend.png" alt="" class="product__trend-body-img-left">
+                                    <img src="./assets/img/product-trendd.png" alt="" class="product__trend-body-img-right">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product__trend-body padding-16">
+                                <div class="product__trend-body-title">Điện thoại Smartphone</div>
+                                <p class="product__trend-body-sub-title">Giảm đến 1%</p>
+                                <div class="product__trend-body-img">
+                                    <img src="./assets/img/product-trend1.png" alt="" class="product__trend-body-img-left">
+                                    <img src="./assets/img/product-trend11.png" alt="" class="product__trend-body-img-right">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product__trend-body padding-16">
+                                <div class="product__trend-body-title">Điện thoại Smartphone</div>
+                                <p class="product__trend-body-sub-title">Giảm đến 30%</p>
+                                <div class="product__trend-body-img">
+                                    <img src="./assets/img/product-trend2.png" alt="" class="product__trend-body-img-left">
+                                    <img src="./assets/img/product-trend22.png" alt="" class="product__trend-body-img-right">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product__trend-body padding-16">
+                                <div class="product__trend-body-title">Điện thoại Smartphone</div>
+                                <p class="product__trend-body-sub-title">Nhiều người xem</p>
+                                <div class="product__trend-body-img">
+                                    <img src="./assets/img/product-trend3.png" alt="" class="product__trend-body-img-left">
+                                    <img src="./assets/img/product-trend33.png" alt="" class="product__trend-body-img-right">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__trend hide-on-tablet-mobile">
+                    <div class="row">
+                        <div class="col l-4">
+                            <img src="./assets/img/slider-trend-img.png" alt="" class="slider__trend-img">
+                        </div>
+                        <div class="col l-4">
+                            <img src="./assets/img/slider-trend-imgc.png" alt="" class="slider__trend-img">
+                        </div>
+                        <div class="col l-4">
+                            <img src="./assets/img/slider-trend-imgr.png" alt="" class="slider__trend-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product__today margin-16">
+                    <div class="product__today-header">
+                        <div class="product__today-heading padding-16">Gợi Ý Hôm Nay</div>
+                        <div class="product__today-container">
+                            <div class="product__today-content">
+                                <img src="./assets/img/product-today.png" alt="" class="product__today-img">
+                                <div class="product__today-title">Dành cho bạn</div>
+                            </div>
+                            <div class="product__today-content">
+                                <img src="./assets/img/product-today1.png" alt="" class="product__today-img">
+                                <div class="product__today-title">Dành cho bạn</div>
+                            </div>
+                            <div class="product__today-content">
+                                <img src="./assets/img/product-today2.png" alt="" class="product__today-img">
+                                <div class="product__today-title">Dành cho bạn</div>
+                            </div>
+                            <div class="product__today-content">
+                                <img src="./assets/img/product-today3.png" alt="" class="product__today-img">
+                                <div class="product__today-title">Dành cho bạn</div>
+                            </div>
+                            <div class="product__today-content">
+                                <img src="./assets/img/product-today4.png" alt="" class="product__today-img">
+                                <div class="product__today-title">Dành cho bạn</div>
+                            </div>
+                            <div class="product__today-content">
+                                <img src="./assets/img/product-today5.png" alt="" class="product__today-img">
+                                <div class="product__today-title">Dành cho bạn</div>
+                            </div>
+                            <div class="product__today-content">
+                                <img src="./assets/img/product-today6.png" alt="" class="product__today-img">
+                                <div class="product__today-title">Dành cho bạn</div>
+                            </div>
+                            <div class="product__today-content">
+                                <img src="./assets/img/product-today7.png" alt="" class="product__today-img">
+                                <div class="product__today-title">Dành cho bạn</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__product-today">
+                        <div class="row">
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col l-2 m-3 c-6">
+                                <div class="product__today-info">
+                                    <a href="" class="product__today-info-link">
+                                        <div class="product__today-info-img">
+                                            <img src="./assets/img/product__today.png" alt="" class="product__today-info-img--img">
+                                        </div>
+                                        <div class="product__today-info-content">
+                                            <div class="product__today-info-title">Điện Thoại iPhone 13 Pro 128GB  - Hàng  Chính Hãng</div>
+                                            <div class="product__today-info-user-action">
+                                                <div class="product__today-info-acsses">
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                    <i class='product__today-info-acsses-icon bx bxs-star' ></i>
+                                                </div>
+                                                <div class="product__today-info-sold">
+                                                    đã bán 890
+                                                </div>
+                                            </div>
+                                            <div class="product__today-info-price">
+                                                <span class="product__today-info-price-new">29.900.000₫</span>
+                                                <span class="product__today-info-price-sale"> -4 %</span>
+                                            </div>
+                                      </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__today-views">
+                            <a>Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="footer">
+            <div class="grid wide">
+                <div class="footer__content">
+                    <div class="row">
+                        <div class="col l-2-4 m-4 c-6">
+                            <div class="footer__support">
+                                <h4 class="footer__support-heading">Hỗ trợ khách hàng</h4>
+                                <div class="footer__support-hotline">
+                                    Hotline :
+                                    <a href="">0932557304</a>
+                                   <p>(1000 đ/phút, 8-21h kể cả T7, CN)</p> 
+                                </div>
+                                <ul class="footer__support-content-list">
+                                    <li class="footer__support-item"><a href="">Các câu hỏi thường gặp</a></li>
+                                    <li class="footer__support-item"><a href="">Gửi yêu cầu hỗ trợ</a></li>
+                                    <li class="footer__support-item"><a href="">Hướng dẫn đặt hàng</a></li>
+                                    <li class="footer__support-item"><a href="">Phương thức vận chuyển</a></li>
+                                    <li class="footer__support-item"><a href="">Chính sách đổi trả</a></li>
+                                    <li class="footer__support-item"><a href="">Hướng dẫn trả góp</a></li>
+                                    <li class="footer__support-item"><a href="">Chính sách hàng nhập khẩu</a></li>
+                                </ul>
+                                <p class="footer__support-security">
+                                    
+                                    <p class="footer__support-security-sp">Hỗ trợ khách hàng: <a href="">hotro@tiki.vn</a> </p>
+                                    <p class="footer__support-security-se">Báo lỗi bảo mật: <a href="">security@tiki.vn</a></p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <div class="footer__support">
+                                <h4 class="footer__support-heading">Về Tiki</h4>
+                                <ul class="footer__support-content-list">
+                                    <li class="footer__support-item"><a href="">Giới thiệu Tiki</a></li>
+                                    <li class="footer__support-item"><a href="">Tuyển dụng</a></li>
+                                    <li class="footer__support-item"><a href="">Chính sách bảo mật thanh toán</a></li>
+                                    <li class="footer__support-item"><a href="">Chính sách bảo mật thông tin cá nhân</a></li>
+                                    <li class="footer__support-item"><a href="">Chính sách giải quyết khiếu nại</a></li>
+                                    <li class="footer__support-item"><a href="">Điều khoản sử dụng</a></li>
+                                    <li class="footer__support-item"><a href="">Giới thiệu Tiki Xu</a></li>
+                                    <li class="footer__support-item"><a href="">Tiếp thị liên kết cùng Tiki</a></li>
+                                    <li class="footer__support-item"><a href="">Bán hàng doanh nghiệp</a></li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <div class="footer__support">
+                                <h4 class="footer__support-heading">Hợp tác và liên kết</h4>
+                                <ul class="footer__support-content-list">
+                                    <li class="footer__support-item"><a href="">Quy chế hoạt động Sàn GDTMĐT</a></li>
+                                    <li class="footer__support-item"><a href="">Bán hàng cùng Tiki</a></li>
+                                </ul>
+                                <h4 class="footer__support-heading margin-top-16  ">Chứng nhận bởi</h4>
+                                <div class="footer__support-certificate-img">
+                                    <img src="./assets/img footer/vantay.png" alt="" class="footer__support-certificate" style="height: 45px; width:45px ;transform: translateY(-13px);">
+                                    <img src="./assets/img footer/bocongthuong.png" alt="" class="footer__support-certificate" style="height: 25px; max-width: 100%; margin-left: 8px;">
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <div class="footer__support">
+                                <h4 class="footer__support-heading">Phương thức thanh toán</h4>
+                                <div class="footer__support-payme-container">
+                                    <img src="./assets/img footer/visa-logo-3.png" alt="" class="footer__support-payme">
+                                    <img src="./assets/img footer/amex.jfif" alt="" class="footer__support-payme">
+                                    <img src="./assets/img footer/mastercard.png" alt="" class="footer__support-payme">
+                                    <img src="./assets/img footer/jcb.png" alt="" class="footer__support-payme" style="transform: translateY(5px);">
+                                    <div class="footer__support-ship-container">
+                                        <h4 class="footer__support-heading margin-top-16  ">Dịch vụ giao hàng</h4>
+                                        <div class="footer__support-ship">
+                                            <img src="./assets/img footer/tiki.png" alt="" class="footer__support-ship-img" style="width:40px">
+        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <div class="footer__support">
+                                <h4 class="footer__support-heading">Kết nối với chúng tôi</h4>
+                                <img src="./assets/img footer/fb.png" alt="" class="footer__support-social" style="width:42px;height:32px">
+                                <img src="./assets/img footer/youtobe.png" alt="" class="footer__support-social">
+                                <img src="./assets/img footer/zalo-icon.png" alt="" class="footer__support-social">
+                        
+                                <h4 class="footer__support-heading margin-top-16">Tải ứng dụng trên điện thoại</h4>
+    
+                                <div class="footer__support-social-down">
+                                    <span class="footer__support-social-qr">
+                                        <img src="./assets/img footer/qr-footer.png" alt="" class="footer__support-social-qr-img">
+                                    </span>
+                                    <span class="footer__support-social-app">
+                                        <img src="./assets/img footer/appstore.png" alt="" class="footer__support-social-appstore">
+                                        <img src="./assets/img footer/chplay.png" alt="" class="footer__support-social-chplay">   
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <div>
+                        <p>Địa chỉ văn phòng: 52 Út Tịch, phường 4, quận Tân Bình, thành phố Hồ Chí Minh</p>
+                        <p>Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng</p>
+                        <p>Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 06/01/2010</p>
+                        <p> © 2021 - Bản quyền của Công Ty Cổ Phần Ti Ki - Tiki.vn</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+        <!-- modal -->
+        <div class="modal js-modal ">
+            <div class="form__user-login js-form__user-login ">
+                <span class="close-btn js-close-btn">
+                    <i class='close-btn-icon bx bx-x-circle'></i>
+                </span>
+                <div class="form__container">
+                    <div class="form__heading">
+                        <h3>Xin chào,</h3>
+                        <p>Đăng nhập hoặc Tạo tài khoản</p>
+                    </div>
+                    <div class="form__body">
+                        <div class="form__body-input">
+                            <input class="form__body-input-btn" type="tel" name="tel" placeholder="Số điện thoại" value="" >
+                        </div>
+                        <button class="form__body-btn">Tiếp tục</button>
+                    </div>
+                    <p class="login-with-email">Đăng nhập bằng email</p>
+                    <div class="form__social">
+                        <div class="social-heading">
+                            <p> Hoặc tiếp tục bằng</p>
+                        </div>
+                        <ul class="social-list">
+                            <li class="social-item"><a href="">
+                                <img src="./assets/img/social-fb.png" alt="" class="social-img"></a>
+                            </li>
+                            <li class="social-item"><a href="">
+                                <img src="./assets/img/socical-mail.png" alt="" class="social-img"></a>
+                            </li>
+                            <li class="social-item"><a href="">
+                                <img src="./assets/img/social-zalo.png" alt="" class="social-img"></a>
+                            </li>
+                        </ul>
+                        <p class="form__note">
+                            Bằng việc tiếp tục, bạn đã chấp nhận
+                            <a href="">điều khoản sử dụng</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="form__right">
+                    <div class="form__right-container">
+                        <img src="./assets/img/banner-form.png" alt="" class="form__right-img">
+                        <div class="form__right-content">
+                            <h4>Mua sắm tại Tiki</h4>
+                            <span>Siêu ưu đãi mỗi ngày</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script>
+            const modal = document.querySelector('.js-modal')
+            const loginB = document.querySelector('.js-header__user-login')
+            const accout = document.querySelector ('.js-accout')
+            const form = document.querySelector('.js-form__user-login')
+            const closebtn = document.querySelector('.js-close-btn')
+
+            function openForm  () {
+                modal.classList.add('open')
+            }
+            
+            function closeForm () {
+                modal.classList.remove('open')
+            }
+
+            
+            accout.addEventListener('click',openForm)
+            loginB.addEventListener('click',openForm )
+            closebtn.addEventListener('click',closeForm)
+            modal.addEventListener('click',closeForm)
+            form.addEventListener('click', function (event) {
+                event.stopPropagation()
+            })
+
+
+        </script>
+    
+</body>
+</html>

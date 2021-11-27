@@ -1,0 +1,72 @@
+/* Mobile & Tablet */
+
+@media (max-width: 1023px) {
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+
+    .header {
+        padding: 8px 12px 0;
+    }
+
+    .header__search {
+        width: 100%;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    
+    .header__with-search {
+        width: 100%;
+        padding-top: 8px;
+    }
+    .header__search-btn {
+        width: 100%;
+    }
+    /* .main, */
+    .header{
+        background-color: #1360B8;
+    }
+    .header__search-input {
+        padding: 6px;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .icon-search {
+        display: block;
+    }
+
+   
+
+    .header__logo-tablet{
+        display: flex;
+    }
+}
+
+
+
+/* tablet */
+
+@media (min-width: 740px ) and (max-width: 1023px ) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .flashsale-day__time{
+        white-space: nowrap;
+    }
+    .footer__content{
+        padding: 16px;
+    }
+    .footer__info{
+        padding: 16px;
+
+    }
+
+
+} 
